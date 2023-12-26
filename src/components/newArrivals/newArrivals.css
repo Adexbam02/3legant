@@ -1,0 +1,72 @@
+.newArrivals {
+  margin-top: 4rem;
+}
+.newArrival-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.newArrival-title h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.newArrival-cards {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.newArrival-card span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.new,
+.off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 9px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.new {
+  background: rgb(253, 253, 253);
+}
+
+.off {
+  background: var(--green);
+  color: white;
+}
+
+.newArrival-card .info-top {
+  top: 5%;
+  left: -2%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info {
+  top: 85%;
+  left: -2%;
+  bottom: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.price {
+  display: flex;
+}
+
+.strike {
+  color: var(--nuetral4);
+  font-size: 14px;
+  text-decoration-line: line-through;
+}

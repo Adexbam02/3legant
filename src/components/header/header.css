@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 3rem; */
+}
+
+
+
+.hero__img{
+  position: relative;
+}
+
+.hero__img img{
+  display: flex;
+  width: 99.5%;
+}
+
+.hero__img .hero-btn-left{
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+  right: 90%;
+}
+.hero__img .hero-btn-right{
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+  left: 90%;
+}
+
+.unique{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.unique h1{
+  line-height: 1;
+  
+}
+
+.unique h1 span{
+  color: var(--nuetral4);
+}
+
+.unique h5{
+  font-weight: 400;
+  color: var(--nuetral4);
+}
+
+.unique h5 span{
+  font-weight: 700;
+  color: var(--nuetral7);
+}

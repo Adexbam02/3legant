@@ -1,0 +1,15 @@
+export { default as LivingRoom } from "./LivingRoom.png";
+export { default as Bedroom } from "./Bedroom.png";
+export { default as Kitchen } from "./Kitchen.png";
+export { default as NewArrival2 } from "./NewArrival2.png";
+export { default as NewArrival1 } from "./NewArrival1.png";
+export { default as NewArrival3 } from "./NewArrival3.png";
+export { default as NewArrival4 } from "./NewArrival4.png";
+export { default as Money } from "./money.svg";
+export { default as Lock } from "./lock.svg";
+export { default as Call } from "./call.svg";
+export { default as FastDelivery } from "./FastDelivery.svg";
+export { default as Star } from "./Star.svg";
+export { default as Fav } from "./fav.svg";
+export { default as Stars } from "./Stars.svg";
+export { default as Room } from "./roomm.png";

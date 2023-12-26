@@ -1,0 +1,19 @@
+.product__card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  /* gap: 16px; */
+}
+
+.product__card-container img {
+  width: 680px;
+  
+}
+
+
+.product__card-container .productInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 160px 0px 72px;
+  background: var(--neutral-02100, #F3F5F7);
+}

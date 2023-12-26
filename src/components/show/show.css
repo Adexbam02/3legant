@@ -1,0 +1,40 @@
+.show {
+  margin-top: 4rem;
+}
+
+.show__container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* align-items: center; */
+}
+
+.living-room {
+  position: relative;
+}
+
+.living-room > div {
+  position: absolute;
+  top: 10%;
+  padding-left: 45px;
+  padding-top: 0px;
+}
+
+.LivingRoom{
+    height: 648px;
+}
+
+.show-title h4 {
+  color: var(--nuetral7);
+  font-size: 30px;
+  font-weight: 500;
+  /* letter-spacing: -0.6px; */
+}
+
+.show-title a {
+  color: var(--nuetral7);
+  text-decoration: underline;
+  font-size: 16px;
+
+  letter-spacing: -0.4px;
+}
